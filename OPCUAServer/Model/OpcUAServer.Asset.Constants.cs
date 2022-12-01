@@ -57,6 +57,15 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public const uint VehicleType_Next_DoService = 42;
+
+        /// <remarks />
+        public const uint MojVozen01_DoService = 53;
+
+        /// <remarks />
+        public const uint MojVozen01_Previous_DoService = 60;
+
+        /// <remarks />
+        public const uint MojVozen01_Next_DoService = 67;
     }
     #endregion
 
@@ -71,6 +80,9 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public const uint AssetType_Next = 15;
+
+        /// <remarks />
+        public const uint MojVozen01 = 47;
     }
     #endregion
 
@@ -180,6 +192,63 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public const uint VehicleType_Direction = 46;
+
+        /// <remarks />
+        public const uint MojVozen01_LifeTime = 48;
+
+        /// <remarks />
+        public const uint MojVozen01_MaxSpeed = 49;
+
+        /// <remarks />
+        public const uint MojVozen01_Health = 50;
+
+        /// <remarks />
+        public const uint MojVozen01_LastServiced = 51;
+
+        /// <remarks />
+        public const uint MojVozen01_Possition = 52;
+
+        /// <remarks />
+        public const uint MojVozen01_Previous_LifeTime = 55;
+
+        /// <remarks />
+        public const uint MojVozen01_Previous_MaxSpeed = 56;
+
+        /// <remarks />
+        public const uint MojVozen01_Previous_Health = 57;
+
+        /// <remarks />
+        public const uint MojVozen01_Previous_LastServiced = 58;
+
+        /// <remarks />
+        public const uint MojVozen01_Previous_Possition = 59;
+
+        /// <remarks />
+        public const uint MojVozen01_Next_LifeTime = 62;
+
+        /// <remarks />
+        public const uint MojVozen01_Next_MaxSpeed = 63;
+
+        /// <remarks />
+        public const uint MojVozen01_Next_Health = 64;
+
+        /// <remarks />
+        public const uint MojVozen01_Next_LastServiced = 65;
+
+        /// <remarks />
+        public const uint MojVozen01_Next_Possition = 66;
+
+        /// <remarks />
+        public const uint MojVozen01_Speed = 68;
+
+        /// <remarks />
+        public const uint MojVozen01_Load = 69;
+
+        /// <remarks />
+        public const uint MojVozen01_Utilization = 70;
+
+        /// <remarks />
+        public const uint MojVozen01_Direction = 71;
     }
     #endregion
 
@@ -203,6 +272,15 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public static readonly ExpandedNodeId VehicleType_Next_DoService = new ExpandedNodeId(OpcUAServer.Asset.Methods.VehicleType_Next_DoService, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_DoService = new ExpandedNodeId(OpcUAServer.Asset.Methods.MojVozen01_DoService, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Previous_DoService = new ExpandedNodeId(OpcUAServer.Asset.Methods.MojVozen01_Previous_DoService, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Next_DoService = new ExpandedNodeId(OpcUAServer.Asset.Methods.MojVozen01_Next_DoService, OpcUAServer.Asset.Namespaces.Asset);
     }
     #endregion
 
@@ -217,6 +295,9 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public static readonly ExpandedNodeId AssetType_Next = new ExpandedNodeId(OpcUAServer.Asset.Objects.AssetType_Next, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01 = new ExpandedNodeId(OpcUAServer.Asset.Objects.MojVozen01, OpcUAServer.Asset.Namespaces.Asset);
     }
     #endregion
 
@@ -326,6 +407,63 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public static readonly ExpandedNodeId VehicleType_Direction = new ExpandedNodeId(OpcUAServer.Asset.Variables.VehicleType_Direction, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_LifeTime = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_LifeTime, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_MaxSpeed = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_MaxSpeed, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Health = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Health, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_LastServiced = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_LastServiced, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Possition = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Possition, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Previous_LifeTime = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Previous_LifeTime, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Previous_MaxSpeed = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Previous_MaxSpeed, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Previous_Health = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Previous_Health, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Previous_LastServiced = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Previous_LastServiced, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Previous_Possition = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Previous_Possition, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Next_LifeTime = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Next_LifeTime, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Next_MaxSpeed = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Next_MaxSpeed, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Next_Health = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Next_Health, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Next_LastServiced = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Next_LastServiced, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Next_Possition = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Next_Possition, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Speed = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Speed, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Load = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Load, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Utilization = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Utilization, OpcUAServer.Asset.Namespaces.Asset);
+
+        /// <remarks />
+        public static readonly ExpandedNodeId MojVozen01_Direction = new ExpandedNodeId(OpcUAServer.Asset.Variables.MojVozen01_Direction, OpcUAServer.Asset.Namespaces.Asset);
     }
     #endregion
 
@@ -357,6 +495,9 @@ namespace OpcUAServer.Asset
 
         /// <remarks />
         public const string MaxSpeed = "MaxSpeed";
+
+        /// <remarks />
+        public const string MojVozen01 = "MojVozen #1";
 
         /// <remarks />
         public const string Next = "Next";
